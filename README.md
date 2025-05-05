@@ -15,11 +15,13 @@
 ```cd path/to/chat-websocket``` atau dengan contoh (```cd \xampp\htdocs\chat-websocket```)
 ## Perintahkan Lagi di CMD : 
 ```npm init -y```
+Maka akan menghasilkan
+
 ![image](https://github.com/user-attachments/assets/7b41cf7f-1484-4b8c-88d4-f431711024e8)
 
 ## Install WebSocket Librari (ws)
-jalankan perintak di CMD untuk menginstal pustaka ```ws``` yang digunakan untuk membuat WebSocket server:
-```npm install ws```
+jalankan perintak di CMD untuk menginstal pustaka ```ws``` yang digunakan untuk membuat WebSocket server: ```npm install ws```
+
 ![image](https://github.com/user-attachments/assets/f1400124-8027-4bfd-9879-247ef998aaaf)
 
 # Langkah 2 : Membuat Server WebSocket di Node.js
@@ -71,7 +73,7 @@ console.log('WebSocket server is running on ws://localhost:8080');
 
 # Langkah 3 : Membuat Klien (Frontend)
 ## Buat File HTML untuk Klien (```index.html```)
-- Buat file ```index.html`` di folder yang sama.
+- Buat file ```index.html``` di folder yang sama.
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -155,15 +157,20 @@ function sendMessage() {
 # Langkah 4 : Uji Aplikasi
 ## Buka Klien di Browser:
 Di VSCode, buka file index.html di browser. Anda bisa melakukannya dengan klik kanan pada file index.html dan pilih Open with Live Server jika sudah menginstal ekstensi Live Server di VSCode. Jika belum, Anda bisa membuka file secara manual di browser.
+
 ![image](https://github.com/user-attachments/assets/5681b60d-aa51-46c2-ae6b-f15f2caf7d70)
 
 ## Buka Beberapa Tab:
 - Buka beberapa tab di browser untuk menguji komunikasi antar tab. Setiap tab akan menjadi klien yang terhubung ke server WebSocket yang sama.
-a. Microsoft (Tab 1)
+
+Microsoft (Tab 1)
+  
 ![image](https://github.com/user-attachments/assets/8bf31a0f-5ec2-4219-9c13-03c56fc2a9ed)
 
-b. Chrome (Tab 2)
+Chrome (Tab 2)
+
 ![image](https://github.com/user-attachments/assets/63dbb778-6269-469e-8521-27c337b9b248)
 
 ## Uji Pengiriman Pesan :
+
 ![image](https://github.com/user-attachments/assets/65eb98ea-99d3-4af6-9c6e-6ff7ab0fc387)
